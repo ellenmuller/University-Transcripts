@@ -1,0 +1,20 @@
+Input
+
+You are given 3 input files which are located under the data\ folder. Each file contains student transcript records from various universities. There are a total of 3 files representing these transcripts across each university. The filename represents each university’s name.
+
+Requirements
+You are tasked to do some basic analysis on this dataset on behalf of a government Oversight Board that is evaluating each university’s performance. Some of the analysis they requested from you is below:
+
+	•	What are the top 3 most popular classes spanning all universities? The intent here is to find the classes that are common across all universities and sort them by count of student attendance. 
+	•	What are the courses offered by no more than 1 university and what is the number of students enrolled in each?
+	•	What is the % passing rate at each university? A passing grade is defined as any grade about 50% or above a D+
+
+The Oversight Board would also like to have you present your approach to this problem. For the presentation, the Board would like to see you cover the following topics:
+
+	•	Brief overview of your pipeline and why you chose this particular design and tools. 
+	•	How would you deal with newly incoming datasets from other universities? 
+	•	The Board is also evaluating widening the analysis they asked you to do. You should talk about the flexibility of your solution to future ad-hoc analysis.
+
+Lastly, the Board requests that you share your end to end pipeline including all elements of the system with them via GitHub, email or similar sources. 
+
+You are free to choose any database/storage solution as well as your own pipeline and development languages. For the analysis, you can simply output the results in your presentation. Additional bonus if your solution has a presentation layer.
