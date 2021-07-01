@@ -3,7 +3,7 @@ This repository contains a Python script to run a data analysis on the universit
 
 ## Features
 
-The transform_transcripts.py file contains the code. There are three global variables (DIRECTORY, COLUMNS and QUERIES) set at the top of the file. These define, respectively, the directory containing the data we'd like analysed, the columns we're interested in and the queries we'd like answered about the data. 
+The transform_transcripts.py file contains the script that runs the analysis. There are three global variables (DIRECTORY, COLUMNS and QUERIES) set at the top of the file. These define, respectively, the directory containing the data we'd like analysed, the columns we're interested in and the queries we'd like answered about the data. 
 
 The script then creates an instance of the UniversityTranscriptsAnalysis class with the global variables as instance variables. This class has the methods necessary to run the analysis. In my approach I rely heavily on the modules pandas and pandasql. I use pandas to create a dataframe containing all the data from the directory and then answer the business questions by using pandasql to run sql queries over this dataframe.
 
